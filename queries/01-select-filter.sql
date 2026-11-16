@@ -21,7 +21,7 @@ where tag_name
 like '%alpha%' or name like '%alpha%';
 -- Rows returned: 0
 
--- Q3b: Which releases have “alpha” in their name or in their tag?
+-- Q3b: Which releases have “beta” in their name or in their tag?
 select project, name, tag_name 
 from releases 
 where tag_name
